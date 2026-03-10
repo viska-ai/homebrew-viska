@@ -1,6 +1,6 @@
 cask "viska" do
-  version "0.142.0"
-  sha256 "81cac01230097853a2a5424204102c3a7ffc700e020bbe3943b7afe40645ece2"
+  version "0.145.0"
+  sha256 "222a63ac27111da42dd717bf293f4ca3704daa77a2f009e377b6d24e0ac9b50c"
 
   url "https://dl.viska-ai.com/Viska-#{version}.pkg"
   name "Viska"
@@ -8,7 +8,7 @@ cask "viska" do
   homepage "https://viska-ai.com"
 
   depends_on macos: ">= :sonoma"
-  depends_on arch: :arm64
+
 
   pkg "Viska-#{version}.pkg"
 

@@ -1,6 +1,6 @@
 cask "viska" do
-  version "0.185.4"
-  sha256 "dd530bb28b281b588bcc0ed99d17ba8be0d59e33e45c4f54289c7a2ca54aab8a"
+  version "0.185.5"
+  sha256 "a3917fd1fd848ba86dab274b026a3234f43b1795bf9a3fd7886f9becda79800a"
 
   url "https://dl.viska-ai.com/Viska-#{version}.pkg"
   name "Viska"
